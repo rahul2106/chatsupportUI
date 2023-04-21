@@ -1,0 +1,39 @@
+.itemListHeader {
+  display:flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding:4px;
+  border-bottom: 1px solid #fafafa;
+}
+.item{
+  display:flex;
+  border-top:1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  padding: 16px
+}
+h4,h5,p {
+  margin:0
+}
+p{
+  margin-top:1px;
+}
+.description{
+  text-align: left;
+  margin-left: 64px;
+  width:100% !important
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+  padding-right:16px;
+  
+}
+img{
+  height:30px;
+  max-width: 50px;
+}
+.searchBox{
+  margin-top:8px;
+  border:0;
+  border-bottom: 1px solid black;
+}

@@ -1,0 +1,30 @@
+.chatHeader{
+    display: flex;
+    padding:12px;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.botMessage{
+   
+    width: 100%;
+   
+     display: flex;
+    justify-content: flex-start;
+
+}
+
+.botChat,.userChat{
+ border-radius: 10px;
+    margin: 16px;
+    padding: 8px;
+    text-align: right;
+    float: left;
+}
+
+.userMessage{
+    
+    color:white;
+    display: flex;
+    justify-content: flex-end;
+
+}
